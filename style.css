@@ -60,3 +60,45 @@
     background-color: gray;
 }
 
+body{
+    background-color: #000
+}
+
+.content{
+    font-family: 'Karla';
+    color: #d8d8d8;
+    margin-top: 30%;
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btns{
+    margin-top: 20px;
+    background: #d8d8d8;
+    cursor: pointer;
+    color: #191919;
+    padding: 12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+img{
+    margin-top: 80px;
+    margin-left: 175px;
+    width: 700px;
+    filter: grayscale(1);
+}
