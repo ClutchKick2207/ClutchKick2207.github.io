@@ -101,4 +101,11 @@ img{
     margin-left: 175px;
     width: 700px;
     filter: grayscale(1);
+    transition: 2s;
+}
+
+img:hover{
+    filter: grayscale(0);
+    transition: 3s;
+    cursor: pointer;
 }
